@@ -1,0 +1,205 @@
+2026-06-22 12:05:49,410 [INFO] Loading cached price / volume data …
+2026-06-22 12:05:49,410 [INFO] Loaded 502 tickers from cache.
+2026-06-22 12:05:49,410 [INFO] Loading price data from parquet cache …
+2026-06-22 12:05:49,841 [INFO] Cache loaded: 502 stocks, 4312 days.
+2026-06-22 12:05:50,051 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:05:50,051 [INFO]   502 tickers | 4312 days | 198 rebalances
+2026-06-22 12:05:50,051 [INFO] Computing base MAX(5) factor …
+2026-06-22 12:05:50,051 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:08:23,803 [INFO] Factor computed. Avg valid stocks per period: 327 (min: 178, max: 500)
+2026-06-22 12:08:33,751 [INFO] D1: 4069 daily returns, mean=0.0789%, std=0.8896%.
+2026-06-22 12:08:35,398 [INFO] D2: 4069 daily returns, mean=0.0789%, std=0.9764%.
+2026-06-22 12:08:36,800 [INFO] D3: 4069 daily returns, mean=0.0815%, std=1.0347%.
+2026-06-22 12:08:38,137 [INFO] D4: 4069 daily returns, mean=0.0794%, std=1.0734%.
+2026-06-22 12:08:39,433 [INFO] D5: 4069 daily returns, mean=0.0836%, std=1.1516%.
+2026-06-22 12:08:40,723 [INFO] D6: 4069 daily returns, mean=0.0835%, std=1.1970%.
+2026-06-22 12:08:41,941 [INFO] D7: 4069 daily returns, mean=0.0810%, std=1.2528%.
+2026-06-22 12:08:43,360 [INFO] D8: 4069 daily returns, mean=0.0905%, std=1.3159%.
+2026-06-22 12:08:44,624 [INFO] D9: 4069 daily returns, mean=0.0966%, std=1.4244%.
+2026-06-22 12:08:45,977 [INFO] D10: 4069 daily returns, mean=0.1084%, std=1.6005%.
+2026-06-22 12:08:45,993 [INFO] === SECTION 1: Look-ahead bias audit ===
+2026-06-22 12:08:47,407 [INFO] Computing MAX(5) factor over 1 rebalance dates …
+2026-06-22 12:08:48,069 [INFO] Factor computed. Avg valid stocks per period: 352 (min: 352, max: 352)
+2026-06-22 12:08:48,085 [INFO] Computing MAX(5) factor over 1 rebalance dates …
+2026-06-22 12:08:48,881 [INFO] Factor computed. Avg valid stocks per period: 352 (min: 352, max: 352)
+2026-06-22 12:08:50,182 [INFO] === SECTION 2: Survivorship bias ===
+2026-06-22 12:08:52,985 [INFO]   Saved charts\validation\surv_listing_age.png
+2026-06-22 12:08:53,640 [INFO]   Saved charts\validation\surv_decile_composition.png
+2026-06-22 12:08:53,650 [INFO] === SECTION 3: Momentum correlation ===
+2026-06-22 12:09:03,851 [INFO]   Saved charts\validation\mom_ic_series.png
+2026-06-22 12:09:04,466 [INFO]   Saved charts\validation\mom_ic_summary.png
+2026-06-22 12:09:04,482 [INFO] === SECTION 4+5: Factor neutralization ===
+2026-06-22 12:09:15,112 [INFO] D1: 4069 daily returns, mean=0.0871%, std=0.9272%.
+2026-06-22 12:09:16,588 [INFO] D2: 4069 daily returns, mean=0.0822%, std=0.9600%.
+2026-06-22 12:09:17,880 [INFO] D3: 4069 daily returns, mean=0.0831%, std=1.0253%.
+2026-06-22 12:09:19,416 [INFO] D4: 4069 daily returns, mean=0.0892%, std=1.0901%.
+2026-06-22 12:09:20,778 [INFO] D5: 4069 daily returns, mean=0.0730%, std=1.1394%.
+2026-06-22 12:09:22,155 [INFO] D6: 4069 daily returns, mean=0.0939%, std=1.1976%.
+2026-06-22 12:09:23,595 [INFO] D7: 4069 daily returns, mean=0.0794%, std=1.2502%.
+2026-06-22 12:09:25,001 [INFO] D8: 4069 daily returns, mean=0.0878%, std=1.3173%.
+2026-06-22 12:09:26,325 [INFO] D9: 4069 daily returns, mean=0.0865%, std=1.4197%.
+2026-06-22 12:09:27,660 [INFO] D10: 4069 daily returns, mean=0.0951%, std=1.5849%.
+2026-06-22 12:09:29,422 [INFO]   Saved charts\validation\neutralization_equity.png
+2026-06-22 12:09:30,588 [INFO]   Saved charts\validation\neutralization_spread.png
+2026-06-22 12:09:30,604 [INFO] === Decile analysis (raw + residual) ===
+2026-06-22 12:09:30,688 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:30,688 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:30,704 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:30,704 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:30,736 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:30,736 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,795 [INFO]   Saved charts\validation\decile_bars_raw.png
+2026-06-22 12:09:31,870 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,871 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,891 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,893 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,919 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:31,919 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:09:32,893 [INFO]   Saved charts\validation\decile_bars_residual.png
+2026-06-22 12:09:34,067 [INFO]   Saved charts\validation\decile_curves_raw.png
+2026-06-22 12:09:35,199 [INFO]   Saved charts\validation\decile_curves_residual.png
+2026-06-22 12:09:35,252 [INFO] === SECTION 6: Liquidity filter sensitivity ===
+2026-06-22 12:09:35,252 [INFO]   Computing MAX factor with ADTV > 1 crore …
+2026-06-22 12:09:35,252 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:12:14,784 [INFO] Factor computed. Avg valid stocks per period: 327 (min: 178, max: 500)
+2026-06-22 12:12:25,176 [INFO] D1: 4069 daily returns, mean=0.0789%, std=0.8896%.
+2026-06-22 12:12:26,848 [INFO] D2: 4069 daily returns, mean=0.0789%, std=0.9764%.
+2026-06-22 12:12:28,437 [INFO] D3: 4069 daily returns, mean=0.0815%, std=1.0347%.
+2026-06-22 12:12:30,042 [INFO] D4: 4069 daily returns, mean=0.0794%, std=1.0734%.
+2026-06-22 12:12:31,532 [INFO] D5: 4069 daily returns, mean=0.0836%, std=1.1516%.
+2026-06-22 12:12:33,086 [INFO] D6: 4069 daily returns, mean=0.0835%, std=1.1970%.
+2026-06-22 12:12:34,665 [INFO] D7: 4069 daily returns, mean=0.0810%, std=1.2528%.
+2026-06-22 12:12:36,338 [INFO] D8: 4069 daily returns, mean=0.0905%, std=1.3159%.
+2026-06-22 12:12:37,744 [INFO] D9: 4069 daily returns, mean=0.0966%, std=1.4244%.
+2026-06-22 12:12:39,237 [INFO] D10: 4069 daily returns, mean=0.1084%, std=1.6005%.
+2026-06-22 12:12:39,254 [INFO]     ADTV 1cr: avg_n=327  D1 CAGR=20.8%  D10=27.2%  Spread=-8.5%
+2026-06-22 12:12:39,254 [INFO]   Computing MAX factor with ADTV > 10 crore …
+2026-06-22 12:12:39,255 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:15:19,019 [INFO] Factor computed. Avg valid stocks per period: 237 (min: 81, max: 489)
+2026-06-22 12:15:29,556 [INFO] D1: 4069 daily returns, mean=0.0745%, std=0.9833%.
+2026-06-22 12:15:30,831 [INFO] D2: 4069 daily returns, mean=0.0609%, std=1.0407%.
+2026-06-22 12:15:32,171 [INFO] D3: 4069 daily returns, mean=0.0700%, std=1.1290%.
+2026-06-22 12:15:33,528 [INFO] D4: 4069 daily returns, mean=0.0736%, std=1.1696%.
+2026-06-22 12:15:35,027 [INFO] D5: 4069 daily returns, mean=0.0643%, std=1.2203%.
+2026-06-22 12:15:36,495 [INFO] D6: 4069 daily returns, mean=0.0694%, std=1.2983%.
+2026-06-22 12:15:37,612 [INFO] D7: 4069 daily returns, mean=0.0800%, std=1.3412%.
+2026-06-22 12:15:38,884 [INFO] D8: 4069 daily returns, mean=0.0776%, std=1.4176%.
+2026-06-22 12:15:40,199 [INFO] D9: 4069 daily returns, mean=0.0829%, std=1.5199%.
+2026-06-22 12:15:41,365 [INFO] D10: 4069 daily returns, mean=0.0965%, std=1.6976%.
+2026-06-22 12:15:41,388 [INFO]     ADTV 10cr: avg_n=237  D1 CAGR=19.2%  D10=23.0%  Spread=-7.1%
+2026-06-22 12:15:41,388 [INFO]   Computing MAX factor with ADTV > 25 crore …
+2026-06-22 12:15:41,388 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:18:08,606 [INFO] Factor computed. Avg valid stocks per period: 182 (min: 43, max: 433)
+2026-06-22 12:18:16,831 [INFO] D1: 4069 daily returns, mean=0.0771%, std=1.0088%.
+2026-06-22 12:18:17,738 [INFO] D2: 4069 daily returns, mean=0.0633%, std=1.0889%.
+2026-06-22 12:18:18,712 [INFO] D3: 4069 daily returns, mean=0.0621%, std=1.1719%.
+2026-06-22 12:18:19,730 [INFO] D4: 4069 daily returns, mean=0.0711%, std=1.2176%.
+2026-06-22 12:18:20,742 [INFO] D5: 4069 daily returns, mean=0.0600%, std=1.2784%.
+2026-06-22 12:18:21,811 [INFO] D6: 4069 daily returns, mean=0.0586%, std=1.3740%.
+2026-06-22 12:18:22,798 [INFO] D7: 4069 daily returns, mean=0.0676%, std=1.3992%.
+2026-06-22 12:18:23,834 [INFO] D8: 4069 daily returns, mean=0.0639%, std=1.4729%.
+2026-06-22 12:18:24,793 [INFO] D9: 4069 daily returns, mean=0.0811%, std=1.6097%.
+2026-06-22 12:18:25,804 [INFO] D10: 4069 daily returns, mean=0.0919%, std=1.7758%.
+2026-06-22 12:18:25,815 [INFO]     ADTV 25cr: avg_n=182  D1 CAGR=19.9%  D10=21.1%  Spread=-5.8%
+2026-06-22 12:18:26,511 [INFO]   Saved charts\validation\liquidity_filters.png
+2026-06-22 12:18:26,566 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:26,582 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:26,599 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:26,599 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:26,617 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:26,617 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,733 [INFO]   Saved charts\validation\decile_bars_adtv1cr.png
+2026-06-22 12:18:27,810 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,810 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,833 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,835 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,855 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:27,856 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,826 [INFO]   Saved charts\validation\decile_bars_adtv10cr.png
+2026-06-22 12:18:28,905 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,905 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,926 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,926 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,955 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:28,957 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-22 12:18:30,179 [INFO]   Saved charts\validation\decile_bars_adtv25cr.png
+2026-06-22 12:18:30,236 [INFO] === SECTION 7: Universe analysis ===
+2026-06-22 12:18:30,236 [INFO]   Processing NIFTY100 …
+2026-06-22 12:18:31,724 [INFO]   Fetched 102 tickers for NIFTY100
+2026-06-22 12:18:31,788 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:18:31,789 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:19:04,273 [INFO] Factor computed. Avg valid stocks per period: 86 (min: 71, max: 100)
+2026-06-22 12:19:12,307 [INFO] D1: 4069 daily returns, mean=0.0935%, std=0.9768%.
+2026-06-22 12:19:12,960 [INFO] D2: 4069 daily returns, mean=0.0768%, std=1.0324%.
+2026-06-22 12:19:13,533 [INFO] D3: 4069 daily returns, mean=0.0663%, std=1.0979%.
+2026-06-22 12:19:14,133 [INFO] D4: 4069 daily returns, mean=0.0862%, std=1.1218%.
+2026-06-22 12:19:14,714 [INFO] D5: 4069 daily returns, mean=0.0838%, std=1.1735%.
+2026-06-22 12:19:15,356 [INFO] D6: 4069 daily returns, mean=0.0654%, std=1.2161%.
+2026-06-22 12:19:15,914 [INFO] D7: 4069 daily returns, mean=0.0853%, std=1.2846%.
+2026-06-22 12:19:16,485 [INFO] D8: 4069 daily returns, mean=0.0844%, std=1.3685%.
+2026-06-22 12:19:17,047 [INFO] D9: 4069 daily returns, mean=0.0953%, std=1.4590%.
+2026-06-22 12:19:17,764 [INFO] D10: 4069 daily returns, mean=0.1082%, std=1.6780%.
+2026-06-22 12:19:17,771 [INFO]   Processing NIFTY200 …
+2026-06-22 12:19:19,163 [INFO]   Fetched 202 tickers for NIFTY200
+2026-06-22 12:19:19,263 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:19:19,263 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:20:25,887 [INFO] Factor computed. Avg valid stocks per period: 160 (min: 119, max: 200)
+2026-06-22 12:20:34,297 [INFO] D1: 4069 daily returns, mean=0.0917%, std=0.9224%.
+2026-06-22 12:20:35,149 [INFO] D2: 4069 daily returns, mean=0.0787%, std=0.9813%.
+2026-06-22 12:20:36,081 [INFO] D3: 4069 daily returns, mean=0.0748%, std=1.0416%.
+2026-06-22 12:20:36,964 [INFO] D4: 4069 daily returns, mean=0.0919%, std=1.0969%.
+2026-06-22 12:20:37,946 [INFO] D5: 4069 daily returns, mean=0.0735%, std=1.1211%.
+2026-06-22 12:20:38,796 [INFO] D6: 4069 daily returns, mean=0.0782%, std=1.1950%.
+2026-06-22 12:20:39,629 [INFO] D7: 4069 daily returns, mean=0.0804%, std=1.2640%.
+2026-06-22 12:20:40,560 [INFO] D8: 4069 daily returns, mean=0.0844%, std=1.2985%.
+2026-06-22 12:20:41,431 [INFO] D9: 4069 daily returns, mean=0.0844%, std=1.4188%.
+2026-06-22 12:20:42,362 [INFO] D10: 4069 daily returns, mean=0.1102%, std=1.5738%.
+2026-06-22 12:20:42,374 [INFO]   Processing NIFTY500 …
+2026-06-22 12:20:44,006 [INFO]   Fetched 502 tickers for NIFTY500
+2026-06-22 12:20:44,290 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:20:44,290 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:23:16,019 [INFO] Factor computed. Avg valid stocks per period: 327 (min: 178, max: 500)
+2026-06-22 12:23:25,634 [INFO] D1: 4069 daily returns, mean=0.0789%, std=0.8896%.
+2026-06-22 12:23:27,160 [INFO] D2: 4069 daily returns, mean=0.0789%, std=0.9764%.
+2026-06-22 12:23:28,556 [INFO] D3: 4069 daily returns, mean=0.0815%, std=1.0347%.
+2026-06-22 12:23:29,666 [INFO] D4: 4069 daily returns, mean=0.0794%, std=1.0734%.
+2026-06-22 12:23:30,996 [INFO] D5: 4069 daily returns, mean=0.0836%, std=1.1516%.
+2026-06-22 12:23:32,580 [INFO] D6: 4069 daily returns, mean=0.0835%, std=1.1970%.
+2026-06-22 12:23:34,112 [INFO] D7: 4069 daily returns, mean=0.0810%, std=1.2528%.
+2026-06-22 12:23:35,545 [INFO] D8: 4069 daily returns, mean=0.0905%, std=1.3159%.
+2026-06-22 12:23:36,949 [INFO] D9: 4069 daily returns, mean=0.0966%, std=1.4244%.
+2026-06-22 12:23:38,280 [INFO] D10: 4069 daily returns, mean=0.1084%, std=1.6005%.
+2026-06-22 12:23:38,300 [INFO]   Processing MIDCAP150 …
+2026-06-22 12:23:39,610 [INFO]   Fetched 150 tickers for MIDCAP150
+2026-06-22 12:23:39,714 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:23:39,714 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:24:24,859 [INFO] Factor computed. Avg valid stocks per period: 103 (min: 57, max: 150)
+2026-06-22 12:24:32,587 [INFO] D1: 4069 daily returns, mean=0.0855%, std=0.9707%.
+2026-06-22 12:24:33,383 [INFO] D2: 4069 daily returns, mean=0.0898%, std=1.0601%.
+2026-06-22 12:24:34,136 [INFO] D3: 4069 daily returns, mean=0.0900%, std=1.1065%.
+2026-06-22 12:24:34,847 [INFO] D4: 4069 daily returns, mean=0.0754%, std=1.1501%.
+2026-06-22 12:24:35,538 [INFO] D5: 4069 daily returns, mean=0.0789%, std=1.2141%.
+2026-06-22 12:24:36,282 [INFO] D6: 4069 daily returns, mean=0.0781%, std=1.2457%.
+2026-06-22 12:24:37,035 [INFO] D7: 4069 daily returns, mean=0.0968%, std=1.3353%.
+2026-06-22 12:24:37,768 [INFO] D8: 4069 daily returns, mean=0.0701%, std=1.3512%.
+2026-06-22 12:24:38,460 [INFO] D9: 4069 daily returns, mean=0.0836%, std=1.4787%.
+2026-06-22 12:24:39,200 [INFO] D10: 4069 daily returns, mean=0.1185%, std=1.6016%.
+2026-06-22 12:24:39,223 [INFO]   Processing SMALLCAP250 …
+2026-06-22 12:24:41,011 [INFO]   Fetched 250 tickers for SMALLCAP250
+2026-06-22 12:24:41,165 [INFO] Rebalance dates: 198 months from 2010-01-04 to 2026-06-01.
+2026-06-22 12:24:41,165 [INFO] Computing MAX(5) factor over 198 rebalance dates …
+2026-06-22 12:25:45,591 [INFO] Factor computed. Avg valid stocks per period: 147 (min: 64, max: 250)
+2026-06-22 12:25:53,398 [INFO] D1: 4069 daily returns, mean=0.0496%, std=1.0977%.
+2026-06-22 12:25:54,236 [INFO] D2: 4069 daily returns, mean=0.0890%, std=1.1954%.
+2026-06-22 12:25:55,052 [INFO] D3: 4069 daily returns, mean=0.0755%, std=1.2563%.
+2026-06-22 12:25:55,901 [INFO] D4: 4069 daily returns, mean=0.0890%, std=1.3035%.
+2026-06-22 12:25:56,750 [INFO] D5: 4069 daily returns, mean=0.0890%, std=1.3742%.
+2026-06-22 12:25:57,550 [INFO] D6: 4069 daily returns, mean=0.0795%, std=1.4041%.
+2026-06-22 12:25:58,427 [INFO] D7: 4069 daily returns, mean=0.0970%, std=1.4592%.
+2026-06-22 12:25:59,298 [INFO] D8: 4069 daily returns, mean=0.0876%, std=1.5258%.
+2026-06-22 12:26:00,265 [INFO] D9: 4069 daily returns, mean=0.1032%, std=1.6331%.
+2026-06-22 12:26:01,042 [INFO] D10: 4069 daily returns, mean=0.1008%, std=1.7764%.
+2026-06-22 12:26:01,814 [INFO]   Saved charts\validation\universe_comparison.png
+2026-06-22 12:26:02,730 [INFO]   Saved charts\validation\universe_equity.png
+2026-06-22 12:26:02,730 [INFO] === Generating validation report ===
+2026-06-22 12:26:02,737 [INFO] Saved validation_report.md
